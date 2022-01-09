@@ -31,19 +31,19 @@ struct NameViewer: View
         TextField( "Name", text: $name )
       }
     }
-    
-    Spacer()
-    
-    Button()
+    .toolbar
     {
-      if ( saveName() )
+      Button()
       {
-        self.presentationMode.wrappedValue.dismiss()
+        if ( saveName() )
+        {
+          self.presentationMode.wrappedValue.dismiss()
+        }
       }
-    }
     label:
-    {
-      Text( "Save" )
+      {
+        Text( "Save" )
+      }
     }
   }
   
