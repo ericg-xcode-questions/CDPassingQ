@@ -13,6 +13,7 @@
 		672C1C20278B3A140024BC95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672C1C1F278B3A140024BC95 /* Preview Assets.xcassets */; };
 		672C1C22278B3A140024BC95 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672C1C21278B3A140024BC95 /* Persistence.swift */; };
 		672C1C25278B3A140024BC95 /* CDPassingQ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 672C1C23278B3A140024BC95 /* CDPassingQ.xcdatamodeld */; };
+		672C1C2C278B3E770024BC95 /* NameViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672C1C2B278B3E770024BC95 /* NameViewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		672C1C1F278B3A140024BC95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		672C1C21278B3A140024BC95 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		672C1C24278B3A140024BC95 /* CDPassingQ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CDPassingQ.xcdatamodel; sourceTree = "<group>"; };
+		672C1C2B278B3E770024BC95 /* NameViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				672C1C18278B3A120024BC95 /* CDPassingQApp.swift */,
 				672C1C1A278B3A120024BC95 /* ContentView.swift */,
+				672C1C2B278B3E770024BC95 /* NameViewer.swift */,
 				672C1C1C278B3A140024BC95 /* Assets.xcassets */,
 				672C1C21278B3A140024BC95 /* Persistence.swift */,
 				672C1C23278B3A140024BC95 /* CDPassingQ.xcdatamodeld */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672C1C2C278B3E770024BC95 /* NameViewer.swift in Sources */,
 				672C1C25278B3A140024BC95 /* CDPassingQ.xcdatamodeld in Sources */,
 				672C1C22278B3A140024BC95 /* Persistence.swift in Sources */,
 				672C1C1B278B3A120024BC95 /* ContentView.swift in Sources */,
