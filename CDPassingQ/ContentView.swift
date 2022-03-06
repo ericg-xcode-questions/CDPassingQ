@@ -20,7 +20,7 @@ struct ContentView: View {
             List {
                 ForEach( items ) { item in
                     NavigationLink {
-                        NameViewer( itemID: item.objectID )
+                        NameViewer( item: item )
                     } label: {
                         Text( item.name! )
                     }

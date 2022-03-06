@@ -67,7 +67,9 @@ struct NameViewer: View {
     @State private var name: String = ""
     @State private var reason: TrustReason = .unknown
 
-    var itemID: NSManagedObjectID?
+//    var itemID: NSManagedObjectID?
+    
+    var item: Item?
     
     var body: some View {
         Form {
@@ -94,15 +96,19 @@ struct NameViewer: View {
         }
         .onAppear {
             print( "on appear" )
-            
-            guard let theID = itemID,
-                  let item = moc.object( with: theID ) as? Item else {
+  
+//            guard let theID = itemID,
+//                  let item = moc.object( with: theID ) as? Item else {
+//                      return
+//                  }
+
+            guard let theItem = item else {
                       return
                   }
             
             print( "passed guard" )
-            
-            if let itemName = item.name {
+
+            if let itemName = theItem.name {
                 name = itemName
             }
             
