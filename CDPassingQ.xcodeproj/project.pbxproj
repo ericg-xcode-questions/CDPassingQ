@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67289AA527D54D3E00E43CCA /* CreateOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67289AA427D54D3E00E43CCA /* CreateOperation.swift */; };
+		67289AA727D54D9600E43CCA /* UpdateOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67289AA627D54D9600E43CCA /* UpdateOperation.swift */; };
+		67289AA927D584DB00E43CCA /* NameEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67289AA827D584DB00E43CCA /* NameEditor.swift */; };
+		67289AAB27D5857600E43CCA /* TrustReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67289AAA27D5857600E43CCA /* TrustReason.swift */; };
 		672C1C19278B3A120024BC95 /* CDPassingQApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672C1C18278B3A120024BC95 /* CDPassingQApp.swift */; };
 		672C1C1B278B3A120024BC95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672C1C1A278B3A120024BC95 /* ContentView.swift */; };
 		672C1C1D278B3A140024BC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672C1C1C278B3A140024BC95 /* Assets.xcassets */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67289AA427D54D3E00E43CCA /* CreateOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOperation.swift; sourceTree = "<group>"; };
+		67289AA627D54D9600E43CCA /* UpdateOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateOperation.swift; sourceTree = "<group>"; };
+		67289AA827D584DB00E43CCA /* NameEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameEditor.swift; sourceTree = "<group>"; };
+		67289AAA27D5857600E43CCA /* TrustReason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrustReason.swift; sourceTree = "<group>"; };
 		672C1C15278B3A120024BC95 /* CDPassingQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDPassingQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		672C1C18278B3A120024BC95 /* CDPassingQApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDPassingQApp.swift; sourceTree = "<group>"; };
 		672C1C1A278B3A120024BC95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +46,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67289AA327D54D2B00E43CCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67289AA427D54D3E00E43CCA /* CreateOperation.swift */,
+				67289AA627D54D9600E43CCA /* UpdateOperation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		672C1C0C278B3A120024BC95 = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +74,12 @@
 		672C1C17278B3A120024BC95 /* CDPassingQ */ = {
 			isa = PBXGroup;
 			children = (
+				67289AA327D54D2B00E43CCA /* Model */,
 				672C1C18278B3A120024BC95 /* CDPassingQApp.swift */,
 				672C1C1A278B3A120024BC95 /* ContentView.swift */,
 				672C1C2B278B3E770024BC95 /* NameViewer.swift */,
+				67289AA827D584DB00E43CCA /* NameEditor.swift */,
+				67289AAA27D5857600E43CCA /* TrustReason.swift */,
 				672C1C1C278B3A140024BC95 /* Assets.xcassets */,
 				672C1C21278B3A140024BC95 /* Persistence.swift */,
 				672C1C23278B3A140024BC95 /* CDPassingQ.xcdatamodeld */,
@@ -147,8 +167,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				672C1C2C278B3E770024BC95 /* NameViewer.swift in Sources */,
+				67289AA727D54D9600E43CCA /* UpdateOperation.swift in Sources */,
 				672C1C25278B3A140024BC95 /* CDPassingQ.xcdatamodeld in Sources */,
+				67289AA927D584DB00E43CCA /* NameEditor.swift in Sources */,
 				672C1C22278B3A140024BC95 /* Persistence.swift in Sources */,
+				67289AAB27D5857600E43CCA /* TrustReason.swift in Sources */,
+				67289AA527D54D3E00E43CCA /* CreateOperation.swift in Sources */,
 				672C1C1B278B3A120024BC95 /* ContentView.swift in Sources */,
 				672C1C19278B3A120024BC95 /* CDPassingQApp.swift in Sources */,
 			);
